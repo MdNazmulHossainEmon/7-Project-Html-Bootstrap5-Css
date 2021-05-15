@@ -1,0 +1,481 @@
+/* ====================================================================== */
+/* ============================= default css =========================== */
+/* ====================================================================== */
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+/* ====================================================================== */
+/* =========================== header ============================ */
+/* ====================================================================== */
+.header-icon {
+  font-size: 25px;
+  font-weight: 600;
+}
+.header-icon span img {
+  width: 45px;
+  display: inline-block;
+}
+.header-btn {
+  background: none;
+  border: 2px solid #6278df;
+  color: #6278df;
+  padding: 7px 25px;
+  transition: 0.4s;
+}
+.header-btn:hover {
+  background-color: #6278df;
+}
+/* ====================================================================== */
+/* ======================= slider ======================== */
+/* ====================================================================== */
+
+.slider {
+  background: url(./mbr-10.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 180px 0;
+  position: relative;
+  z-index: 1;
+}
+.slider::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.slider-caption h4 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.slider-caption h1 {
+  font-size: 2.8rem;
+  line-height: 1.4;
+}
+.slider-caption input {
+  height: 57px;
+}
+.slider-caption button {
+  background-color: #5ba533;
+  border-color: #5ba533;
+  color: #ffffff;
+  width: 250px;
+  height: 57px;
+  font-size: 23px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.slider-caption button:hover {
+  background-color: #fff;
+  color: #6278df;
+  border-color: #6278df;
+}
+/* ====================================================================== */
+/* ======================== Counter ================================ */
+/* ====================================================================== */
+
+.counter-item h2 {
+  font-size: 50px;
+}
+.counter-item p {
+  color: #767676;
+  font-size: 20px;
+}
+/* ====================================================================== */
+/*  ============== Improve Health =================== */
+/* ====================================================================== */
+.Improve-health {
+  background-color: #f7f9ff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.Improve-health-left h1 {
+  font-size: 2.8rem;
+  line-height: 1.4;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  color: #232323;
+}
+.Improve-health-left p {
+  color: #232323;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: justify;
+}
+/* ====================================================================== */
+/* ====================== Start About Application ====================== */
+/* ====================================================================== */
+
+.Start-about-application {
+  padding: 50px 0;
+}
+.Start-about-application-caption {
+}
+.Start-about-application-caption h1 {
+  font-size: 2.8rem;
+  line-height: 1.4;
+}
+.Start-about-application-caption p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #767676;
+  font-weight: 300;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+.Start-about-application-inner-item-picture img {
+  height: 260px;
+  width: 570px;
+  margin-left: -20px;
+}
+.Start-about-application-inner-item-writing {
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.Start-about-application-inner-item-writing p {
+  color: #767676;
+  line-height: 1.4;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.Start-about-application-item {
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+/* ====================================================================== */
+/* ========================== Start Look At =========================== */
+/* ====================================================================== */
+.Start-look-At {
+  padding: 50px 0;
+}
+
+.satrt-look-at-caption h2 {
+  font-size: 45px;
+  font-weight: 400;
+}
+.start-look-inner-item {
+  position: relative;
+}
+.start-look-inner-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(98, 121, 223, 0.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.start-look-inner-item:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+/* ====================================================================== */
+/* =========================== App Today =========================== */
+/* ====================================================================== */
+
+.app-today {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #f7f9ff;
+}
+
+.app-today-caption h1 {
+  font-size: 3.7rem;
+  line-height: 1.1;
+  font-weight: 400;
+  color: #232323;
+}
+.app-today-caption p {
+  color: #767676;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.app-today-item {
+  margin-top: 50px;
+}
+.app-today-inner-item {
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+  background-color: #fff;
+  padding: 40px;
+}
+.app-today-inner-item h2 {
+  font-size: 2.8rem;
+  line-height: 1.4;
+}
+.app-today-inner-item p {
+  color: #767676;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.app-today-inner-item ul {
+  list-style: none;
+  padding-left: 0;
+}
+.app-today-inner-item ul li {
+  color: #767676;
+  font-size: 1.2rem;
+  line-height: 2.2;
+  font-weight: 300;
+}
+.app-today-inner-item ul li span {
+  display: inline-block;
+  min-width: 35px;
+  color: #6278df;
+  font-size: 1.6rem;
+  margin-right: 0.6rem;
+}
+.app-today-btn {
+  text-align: center;
+}
+.app-today-btn a {
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.3);
+  padding: 17px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  transition: 0.4s;
+  border: 1px solid transparent;
+}
+.app-today-btn a:hover {
+  background-color: #6278df;
+  color: #fff;
+  border: 1px solid #6278df;
+}
+/*====================================================================== */
+/* ===================== user ======================== */
+/*====================================================================== */
+.user {
+  padding: 60px 0;
+}
+
+.user-caption h4 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #767676;
+}
+.user-caption h1 {
+  color: #000000;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 1.4;
+}
+.user-caption span {
+  display: block;
+  font-size: 45px;
+  color: #cccccc;
+}
+.user-caption p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #767676;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.user-item img {
+  border-radius: 50%;
+  width: 70px;
+  margin-right: 15px;
+}
+.user-item-caption span {
+  font-size: 18px;
+  color: #767676;
+  position: relative;
+  left: -18px;
+}
+/*====================================================================== */
+/* ============================ Team Member ========================== */
+/*====================================================================== */
+.team-member {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  background-color: #f7f9ff;
+}
+
+.team-first-left-caption h2 {
+  font-size: 2.6rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.team-member-double-caption p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: justify;
+}
+.team-inner-item {
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+.team-inner-item .card {
+  border: none;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+  background-color: #fff;
+  padding: 20px;
+}
+.team-inner-item .card img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: -70px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.team-inner-item .card-body p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #767676;
+  padding: 10px 0;
+  font-weight: 300;
+}
+.team-inner-item .card-body button {
+  margin-bottom: 10px;
+}
+
+/*===================================================================== */
+/* ========================== Contact section ========================= */
+/* ===================================================================== */
+.contact {
+  padding: 50px 0;
+}
+.contact-title {
+  margin-bottom: 70px;
+}
+.contact-title p {
+  color: #767676;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.contact-title h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.contact-item .card {
+  padding: 30px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+  border: none;
+}
+.contact-item .card .card-body input {
+  height: 60px;
+  margin-bottom: 25px;
+}
+
+.contact-item .card .card-body .contact-inner-item-input {
+  height: 50px;
+  margin-bottom: 25px;
+}
+.contact-item .card .card-body .contact-inner-item-input input {
+  width: 48%;
+}
+.contact-item .card .card-body .contact-inner-item-input input.right-side {
+  position: relative;
+  left: 20px;
+}
+.contact-item .card .card-body textarea {
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+.contact-btn {
+  margin: auto;
+  line-height: 50px;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.contact-btn a {
+  display: inline-block;
+  font-weight: 600;
+  background-color: #6278df;
+  color: #fff;
+  width: 170px;
+  border-radius: 6px;
+  color: #fff !important;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  border: 1px solid #6278df;
+  transition: 0.4s;
+  border: 2px solid #6278df;
+}
+.contact-btn a:hover {
+  background-color: #fff;
+  color: #6278df !important;
+  border: 2px solid #6278df;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.6);
+}
+/* ===================================================================== */
+/* ==================== I-phone Mobile ==================== */
+/* ===================================================================== */
+
+.iphone {
+  padding: 50px 0;
+}
+.iphone-title h4 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #767676;
+}
+.iphone-title h1 {
+  font-size: 2.8rem;
+  line-height: 1.4;
+  font-weight: 400;
+  padding: 12px 0;
+}
+
+.iphone-btn a {
+  background-color: #5ba533;
+  border-color: #5ba533;
+  color: #ffffff;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.iphone-img {
+  margin-top: 40px;
+}
+/* ===================================================================== */
+/* ============================= Footer ===================== */
+/* ===================================================================== */
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #f7f9ff;
+}
+.footer p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+  position: relative;
+  top: 13px;
+}
